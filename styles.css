@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'games';
+    src: url(Game\ Of\ Squids.ttf);
+}
+
+body {
+
+    color:rgb(255, 255, 255);
+    background: rgb(2, 34, 94);
+}
+
+
+header {
+    border-bottom: solid 2px rgb(6, 1, 39);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(6, 1, 39);
+}
+
+section {
+    background: rgb(42, 122, 228);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada {
+    background: rgb(6, 1, 39);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    text-align: center;
+    margin-right: 5%;;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'games', Times, serif;
+    font-size: 50px;
+    margin: 0%;
+    border: solid, blue;
+}
+
+p {
+    font-family: 'games', Times, serif;
+    font-size: 25px;
+    margin: 0%;
+}
+
+h2 {
+    font-family: 'games', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 1px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.categoria h2 {
+    color: rgb(4, 16, 32);
+}
